@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Aviasales</title>
+</head>
+<body>
+  <div class="fon-div">
+    <nav class="fon-nav">
+        <div class="aviasales">
+            <img class="logo-img" src="./aviasales-4.svg" alt="">
+            aviasales</div>
+            <div class="prof-desc" onclick="onclickBackround()" >
+              <div class="sett"><div class="img-bac"  ><img class="sett-img" src="./img/settings.png"></div></div>
+              <div class="uved"></div> 
+              <div class="sub"></div>
+              <div class="keshb"></div>
+              <!-- <button></button> -->
+            </div>
+        <div class="words">
+            <button class="btn12">Профиль</button>
+            <button class="btn12">Поддержка</button>
+            <button class="btn12">Мой кэшбэк</button>
+            <button class="btn12"></button>
+        </div>
+    </nav>
+    <h1  class="search-ticket">Поиск дешевых авиабилетов</h1>
+    <h2 class="header-title">16 лет помогаем вам экономить</h2>
+    <div class="aviadiv">
+        <button class="btn-ticket">Авиабилеты</button>
+        <button class="btn-hotel">Отели</button>
+</div>
+<button class="  search-bilet">Найти бил...</button>
+<div class="div-info">
+    
+    <div class="otkuda-div"><input class="otkuda" type="text" placeholder="Откуда"></div>
+    <input class=" inp-kuda" type="text" placeholder="Куда">
+    <input class=" inp-date" type="date" placeholder="Откуда">
+    <input class=" obratno" type="date" placeholder="Обратно">
+    <input class=" oplata" type="text" placeholder="Оплата">
+    <input class=" passen" type="text" placeholder="Пассажир">
+</div>
+</div>
+    <div class="down_countries">
+       <div class="navi"> <img class="navigator" src="./img/navi.png"></div>
+        <h1 class="pop">Популярные направления</h1>
+       <div class="tri first-three">
+        <div class="dropdown">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="flag" src="./img/russia.png"> <p class="coname">Москва</p><br><p class="down_p">Россия</p>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ташкент-Москва   от 2.600.000 UZS</a></li>
+              <li><a class="dropdown-item" href="#">Самарканд-Москва   от 3.000.000 UZS</a></li>
+              <li><a class="dropdown-item" href="#">Фергана-Москва   от 2.800.000 UZS</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="flag" src="./img/turk.png"> <p class="coname">Станбул</p><br><p class="down_p">Турция</p>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ташкент-Станбул   от 3.800.000 UZS</a></li>
+              <li><a class="dropdown-item" href="#">Самарканд-Станбул   от 3.000.000 UZS</a></li>
+              <li><a class="dropdown-item" href="#">Фергана-Станбул   от 4.600.000 UZS</a></li>
+            </ul>
+          </div>
+          <div class="dropdown">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <img class="flag" src="./img/russia.png"> <p class="coname">Санкт-Петербург</p><br><p class="down_p">Россия</p>
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Ташкент-Санкт-Петер...   от 3.800.000 UZS</a></li>
+              <li><a class="dropdown-item" href="#">Самарканд-Санкт-Пет...   от 3.000.000 UZS</a></li>
+              <li><a class="dropdown-item" href="#">Фергана-Санкт-Петер...   от 4.600.000 UZS</a></li>
+            </ul>
+          </div>
+       </div>
+       <div class="tri second-three">
+        <div class="dropdown">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="flag" src="./img/baa.png"> <p class="coname">Абу-Даби</p><br><p class="down_p">ОАЭ</p>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ташкент-Абу-Даби   от 1.000.000 UZS</a></li>
+            <li><a class="dropdown-item" href="#">Самарканд-Абу-Даби   от 1.300.000 UZS</a></li>
+            <li><a class="dropdown-item" href="#">Фергана-Абу-Даби   от 1.100.000 UZS</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="flag" src="./img/korea.png"> <p class="coname">Сеул</p><br><p class="down_p">Южная Корея</p>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ташкент-Сеул   от 6.500.000 UZS</a></li>
+          </ul>
+        </div>
+        <div class="dropdown">
+          <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <img class="flag" src="./img/russia.png"> <p class="coname">Сочи</p><br><p class="down_p">Россия</p>
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ташкент-Сочи   от 2.800.000 UZS</a></li>
+            <li><a class="dropdown-item" href="#">Самарканд-Сочи   от 3.900.000 UZS</a></li>
+          </ul>
+        </div>
+     </div>
+     <div class="tri third-three">
+      <div class="dropdown">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img class="flag" src="./img/baa.png"> <p class="coname">Дубай</p><br><p class="down_p">ОАЭ</p>        
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Ташкент-Дубай   от 3.000.000 UZS</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img class="flag" src="./img/britan.png"> <p class="coname">Лондон</p><br><p class="down_p">Великобритания</p>
+        </a>    
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Ташкент-Лондон   от 8.700.000 UZS</a></li>
+          <li><a class="dropdown-item" href="#">Самарканд-Лондон   от 5.300.000 UZS</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <img class="flag" src="./img/russia.png"> <p class="coname">Казань</p><br><p class="down_p">Россия</p>
+        </a>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Ташкент-Казань   от 3.400.000 UZS</a></li>
+          <li><a class="dropdown-item" href="#">Самарканд-Казань   от 3.500.000 UZS</a></li>
+          <li><a class="dropdown-item" href="#">Фергана-Казань   от 3.300.000 UZS</a></li>
+        </ul>
+      </div>
+   </div>
+   <div class="tri fourth-three">
+    <div class="dropdown">
+      <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="flag" src="./img/russia.png"> <p class="coname">Новосибирск</p><br><p class="down_p">Россия</p>
+      </a>   
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Ташкент-Новосибирск   от 2.500.000 UZS</a></li>
+        <li><a class="dropdown-item" href="#">Фергана-Новосибирск   от 2.800.000 UZS</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="flag" src="./img/kazak.png"> <p class="coname">Алматы</p><br><p class="down_p">Казахстан</p> 
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Ташкент-Алматы   от 1.800.000 UZS</a></li>
+      </ul>
+    </div>
+    <div class="dropdown">
+      <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+        <img class="flag" src="./img/russia.png"> <p class="coname">Минеральные Воды</p><br><p class="down_p">Россия</p> 
+      </a>
+      <ul class="dropdown-menu">
+        <li><a class="dropdown-item" href="#">Ташкент-Минераль...   от 3.800.000 UZS</a></li>
+      </ul>
+    </div>
+ </div>
+   </div>
+     </div>
+       </div>
+       <nav class="down_nav">
+        <table>
+          <tr>
+            <th>СТРАНЫ</th>
+            <th>ГОРОДА</th>
+            <th>АВИАКОМПАНИИ</th>
+            <th>АЭРОПОРТЫ</th>
+            <th>СЕРВИСЫ</th>
+            <th>НАПРАВЛЕНИЯ</th>
+          </tr>
+          <tr>
+            <td><a href="">Россия</a></td>
+            <td><a href="">Ташкент</a></td>
+            <td><a href="">Узбекские авиалинии</a></td>
+            <td><a href="">Ташкент</a></td>
+            <td><a href="">Карта низких цен</a></td>
+            <td><a href="">Ташкент - Москва</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Узбекистан</a></td>
+            <td><a href="">Самарканд</a></td>
+            <td><a href="">Aeroflot</a></td>
+            <td><a href="">Самарканд</a></td>
+            <td><a href=""></a></td>
+            <td><a href="">Ташкент - Станбул</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Турция</a></td>
+            <td><a href="">Фергана</a></td>
+            <td><a href="">SCAT</a></td>
+            <td><a href="">Фергана</a></td>
+            <td><a href=""></a></td>
+            <td><a href="">Ташкент - Казань</a></td>
+          </tr>
+          <tr>
+            <td><a href="">Южная Корея</a></td>
+            <td><a href="">Москва</a></td>
+            <td><a href="">Nordwind</a></td>
+            <td><a href="">Шереметьево</a></td>
+            <td><a href=""></a></td>
+            <td><a href="">Самарканд - Москва</a></td>
+        </tr>
+        <tr>
+          <td><a href="">Казахстан</a></td>
+          <td><a href="">Санкт-Петербург</a></td>
+          <td><a href="">Turkish Airlines</a></td>
+          <td><a href="">Домодедово</a></td>
+          <td><a href=""></a></td>
+          <td><a href="">Фергана - Москва</a></td>
+        </tr>
+        <tr>
+          <td><a href="">Китай</a></td>
+          <td><a href="">Стамбул</a></td>
+          <td><a href="">Utair</a></td>
+          <td><a href="">Шымкент</a></td>
+          <td><a href=""></a></td>
+          <td><a href="">Шымкент - Станбул</a></td>
+        </tr>
+        <tr>
+          <td id="siniy">Все страны →</td>
+          <td id="siniy">Все города →</td>
+          <td id="siniy">Все города →</td>
+          <td id="siniy">Все города →</td>
+          <td id="siniy"></td>
+          <td id="siniy"></td>
+        </tr>
+        </table>
+        <div class="pochta">
+          <div class="heart"> <svg fill="none" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" data-test-id="icon" style="display:inline-block" height="64" width="64"><path d="M23.25 5.25H.75v13.5h22.5V5.25z" fill="url(#EmojiLoveLetter__a)"></path><path d="M12 7.5.75 18.75h22.5L12 7.5Z" fill="#99A8AE"></path><path d="M12 7.95.75 18.75h22.5L12 7.95Z" fill="url(#EmojiLoveLetter__b)"></path><path d="M11.505 14.686.75 5.25h22.5l-10.756 9.436a.75.75 0 0 1-.99 0z" fill="#99A8AE"></path><path d="M11.517 14.295.75 5.25h22.5l-10.768 9.045a.75.75 0 0 1-.965 0z" fill="url(#EmojiLoveLetter__c)"></path><path d="M11.517 14.295.75 5.25h22.5l-10.768 9.045a.75.75 0 0 1-.965 0z" fill="url(#EmojiLoveLetter__d)"></path><path d="M12 9.085c-1.294-2.136-4.875-1.302-4.875 1.38 0 1.8 1.651 3.003 4.875 5.66 3.223-2.657 4.875-3.86 4.875-5.66 0-2.682-3.582-3.516-4.875-1.38z" fill="url(#EmojiLoveLetter__e)"></path><defs><linearGradient id="EmojiLoveLetter__a" x1="12" x2="12" y1="18.75" y2="5.25" gradientUnits="userSpaceOnUse"><stop stop-color="#E6EBED" offset="0"></stop><stop stop-color="#DBE2E5" offset="0.512"></stop><stop stop-color="#CCD5D9" offset="1"></stop></linearGradient><linearGradient id="EmojiLoveLetter__b" x1="12" x2="12" y1="18.75" y2="7.95" gradientUnits="userSpaceOnUse"><stop stop-color="#E6EBED" offset="0"></stop><stop stop-color="#E3E9EB" offset="0.26"></stop><stop stop-color="#DAE1E4" offset="0.454"></stop><stop stop-color="#CFD8DD" offset="0.576"></stop></linearGradient><linearGradient id="EmojiLoveLetter__c" x1="12" x2="12" y1="14.153" y2="-19.352" gradientUnits="userSpaceOnUse"><stop stop-color="#B9C2C7" offset="0"></stop><stop stop-color="#C2CACF" offset="0.046"></stop><stop stop-color="#DCE2E5" offset="0.203"></stop><stop stop-color="#E6EBED" offset="0.297"></stop></linearGradient><linearGradient id="EmojiLoveLetter__d" x1="12" x2="12" y1="14.47" y2="5.25" gradientUnits="userSpaceOnUse"><stop stop-color="#E6EBED" offset="0"></stop><stop stop-color="#E3E9EC" offset="0.582"></stop><stop stop-color="#DAE3E8" offset="1"></stop></linearGradient><linearGradient id="EmojiLoveLetter__e" x1="12" x2="12" y1="16.124" y2="7.875" gradientUnits="userSpaceOnUse"><stop stop-color="#DB0100" offset="0"></stop><stop stop-color="#F31317" offset="0.584"></stop><stop stop-color="#FF1C23" offset="1"></stop></linearGradient></defs></svg></div>
+          <p class="desx">Знаем, как экономить на отдыхе,<br> ловить скидки и летать без визы. <br>И вам расскажем</p>
+          <input class="poch" type="text" placeholder="На какую почту слать письма">
+        </div>
+        <div class="qrcode">
+          <p class="pri">В приложении удобнее</p>
+          <p class="desc">Там супербыстрый поиск и легче следить<br>за ценами и билеты</p>
+          <div class="s__nTb4VGFJp3ixAI4eEe9g s__rnbDhIV3it6rSU6OnypQ s__WM67anrs2qjfVHDXDNW_ s__aXHIyM47HvGNpErdh6LK" style="--image_width:88;--image_height:88"><img src="https://static.aviasales.com/selene-static/entrypoint/362c6e9b48474c4cfb80.png" class="qr" loading="lazy" alt=""></div>
+        </div>
+        </div>
+       </nav>
+    </div>
+    
+    <script src="./project.js">
+        
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
